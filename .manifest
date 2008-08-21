@@ -5,6 +5,8 @@ init.rb
 lib
 lib/string_ext.rb
 lib/url_safe_base64.rb
+rails
+rails/init.rb
 test
 test/test_png.png
 test/url_safe_base64_test.rb
