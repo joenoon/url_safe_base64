@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{joenoon-url_safe_base64}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joe Noon"]
@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "init.rb",
+     "joenoon-url_safe_base64.gemspec",
      "lib/string_ext.rb",
      "lib/url_safe_base64.rb",
      "rails/init.rb",
