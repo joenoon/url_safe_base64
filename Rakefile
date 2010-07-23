@@ -24,7 +24,7 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "joenoon-url_safe_base64"
+    gemspec.name = "url_safe_base64"
     gemspec.summary = "Coverts strings to/from a slightly modified base64 that contains only url-safe characters"
     gemspec.description = "Coverts strings to/from a slightly modified base64 that contains only url-safe characters"
     gemspec.email = "joenoon@gmail.com"
