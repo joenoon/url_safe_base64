@@ -25,12 +25,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "url_safe_base64"
-    gemspec.summary = "Coverts strings to/from a slightly modified base64 that contains only url-safe characters"
-    gemspec.description = "Coverts strings to/from a slightly modified base64 that contains only url-safe characters"
+    gemspec.summary = "Converts strings to/from a slightly modified base64 that contains only url-safe characters"
+    gemspec.description = "Converts strings to/from a slightly modified base64 that contains only url-safe characters"
     gemspec.email = "joenoon@gmail.com"
     gemspec.homepage = "http://github.com/joenoon/url_safe_base64"
     gemspec.authors = ["Joe Noon"]
   end
 rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+  puts "Jeweler not available. Install it with: gem install jeweler"
 end
