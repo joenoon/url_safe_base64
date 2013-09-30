@@ -17,16 +17,13 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "MIT-LICENSE",
-     "README",
-     "Rakefile",
-     "VERSION",
-     "init.rb",
-     "lib/string_ext.rb",
-     "lib/url_safe_base64.rb",
-     "rails/init.rb",
-     "test/test_png.png",
-     "test/url_safe_base64_test.rb",
-     "url_safe_base64.gemspec"
+    "README",
+    "Rakefile",
+    "VERSION",
+    "lib/url_safe_base64.rb",
+    "test/test_png.png",
+    "test/url_safe_base64_test.rb",
+    "url_safe_base64.gemspec"
   ]
   s.homepage = %q{http://github.com/joenoon/url_safe_base64}
   s.rdoc_options = ["--charset=UTF-8"]

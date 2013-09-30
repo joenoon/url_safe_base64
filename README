@@ -8,9 +8,6 @@ Examples
 
 Normal:
 
->> "Test string".url_safe_encode64
-=> "VGVzdCBzdHJpbmc"
-
 >> Base64.encode64 "Test string"
 => "VGVzdCBzdHJpbmc=\n"
 
@@ -23,14 +20,6 @@ With this gem:
 => "VGVzdCBzdHJpbmc"
 
 >> UrlSafeBase64.decode64 "VGVzdCBzdHJpbmc=\n"
-=> "Test string"
-
-Or:
-
->> "Test string".url_safe_encode64
-=> "VGVzdCBzdHJpbmc"
-
->> "VGVzdCBzdHJpbmc".url_safe_decode64
 => "Test string"
 
 Copyright (c) 2008 Joe Noon, released under the MIT license
