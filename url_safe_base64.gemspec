@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/url_safe_base64.rb",
-    "test/test_png.png",
     "test/url_safe_base64_test.rb",
     "url_safe_base64.gemspec"
   ]
