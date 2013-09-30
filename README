@@ -3,13 +3,12 @@ UrlSafeBase64
 
 Converts strings to/from a slightly modified base64 that contains only url-safe characters
 
+This fork simply removes the Rails-specific stuff and packages the code as a standalone class
+
 Examples
 ========
 
 Normal:
-
->> "Test string".url_safe_encode64
-=> "VGVzdCBzdHJpbmc"
 
 >> Base64.encode64 "Test string"
 => "VGVzdCBzdHJpbmc=\n"
@@ -23,14 +22,6 @@ With this gem:
 => "VGVzdCBzdHJpbmc"
 
 >> UrlSafeBase64.decode64 "VGVzdCBzdHJpbmc=\n"
-=> "Test string"
-
-Or:
-
->> "Test string".url_safe_encode64
-=> "VGVzdCBzdHJpbmc"
-
->> "VGVzdCBzdHJpbmc".url_safe_decode64
 => "Test string"
 
 Copyright (c) 2008 Joe Noon, released under the MIT license
