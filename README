@@ -3,8 +3,6 @@ UrlSafeBase64
 
 Converts strings to/from a slightly modified base64 that contains only url-safe characters
 
-This fork simply removes the Rails-specific stuff and packages the code as a standalone class
-
 Examples
 ========
 
